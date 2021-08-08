@@ -1,4 +1,4 @@
 ECHO ON
 
-cd E:\Calvin\ProjectX\Python\Jupyter Notebook
+cd E:\GitHub\My-Python-Learning\Jupyter Notebook
 jupyter notebook
