@@ -1,7 +1,10 @@
 import cv2
 import glob
 
-images = glob.glob("*.jpg")
+images = [cv2.imread(file) for file in glob.glob(
+    "/Users/clcx/Documents/GitHub/My-Python-Learning/Python 10 Real-World Programs/Computer Vision/Pic*.png")]
+
+print(images)
 
 for image in images:
     img = cv2.imread(image, 0)
