@@ -1,8 +1,0 @@
-h: help
-w: where
-n: next
-s: step (steps into function)
-c: continue
-p: print
-l: list
-q: quit
