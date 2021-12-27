@@ -4,7 +4,7 @@ face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
 img = cv2.imread(
-    "/Users/clcx/Documents/GitHub/My-Python-Learning/Python 10 Real-World Programs/Computer Vision/Pic/Divine.jpg")
+    "/Users/clcx/Documents/GitHub/My-Python-Learning/Python 10 Real-World Programs/Computer Vision/Pic/Us.jpg")
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 print(type(gray_img))
