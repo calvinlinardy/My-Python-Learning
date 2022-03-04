@@ -22,8 +22,7 @@ def login():
     if username.get() == 'calvin' and password.get() == 'audition':
         messagebox.showinfo(title='Login Status', message='Login Success!')
     else:
-        messagebox.showerror(title='Login Error',
-                             message='Incorrect Credentials')
+        messagebox.showerror(title='Login Error',message='Incorrect Credentials')
 
 
 def cancel():
